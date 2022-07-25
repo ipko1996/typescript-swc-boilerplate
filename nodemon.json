@@ -1,0 +1,6 @@
+{
+  "watch": ["dist/**/*", ".env"],
+  "ext": "js,ts,json",
+  "ignore": ["dist/logs/*", "dist/**/*.{spec,test}.ts"],
+  "exec": "node ./dist/index.js"
+}
